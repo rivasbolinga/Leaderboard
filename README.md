@@ -1,10 +1,10 @@
 <a name="readme-top"></a>
 
-
-
 <div align="center">
 
-  <h3><b>Microverse README Template</b></h3>
+![images](https://user-images.githubusercontent.com/103900838/215281899-20ec7894-4831-422a-aea7-8ba335a01f16.png)
+ # 📖 [LEADERBOARD] 
+ <a name="about-project"></a>
 
 </div>
 
@@ -34,7 +34,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [LEADERBOARD] <a name="about-project"></a>
+
 
 
 
@@ -62,7 +62,7 @@
 
 For a live demo to our project, follow the link below
 
-- [Live Demo Link](https://rivasbolinga.github.io/AwesomeBooks-library/)
+- [Live Demo Link](https://rivasbolinga.github.io/Leaderboard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
