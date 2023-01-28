@@ -1,5 +1,5 @@
 const path = require('path');
-const HtmlWebpackPlugin = require.resolve('html-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -8,9 +8,6 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
-  },
-  optimization: {
-    runtimeChunk: 'single',
   },
   devServer: {
     static: './dist',
