@@ -38,6 +38,17 @@ button {
 .leaderboard {
   border: 2px solid black;
   min-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.score {
+  padding: 6px;
+  font-size: 14px;
+}
+
+.score:nth-child(odd) {
+  background-color: rgba(168, 168, 168, 0.852);
 }
 
 .form-container {
