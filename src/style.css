@@ -1,0 +1,87 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Salsa', cursive;
+}
+
+.main-section-title {
+  padding: 30px 20px 0 20px;
+  font-family: 'Salsa', cursive;
+  font-size: 25px;
+}
+
+.main-app {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  padding: 30px;
+}
+
+.leaderboard-title-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+button {
+  background-color: white;
+  text-align: center;
+  width: 80px;
+  height: 30px;
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px black;
+  font-family: 'Salsa', cursive;
+}
+
+.leaderboard {
+  border: 2px solid black;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.score {
+  padding: 6px;
+  font-size: 14px;
+}
+
+.score:nth-child(odd) {
+  background-color: rgba(168, 168, 168, 0.852);
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 18px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  width: 230px;
+  height: 20px;
+  border: 2px solid black;
+  gap: 30px;
+}
+
+input::placeholder {
+  color: black;
+  padding-left: 2px;
+  font-family: 'Salsa', cursive;
+}
+
+.submit-btn {
+  align-self: flex-end;
+  justify-self: flex-end;
+}
+
+.form-title {
+  text-align: center;
+}
