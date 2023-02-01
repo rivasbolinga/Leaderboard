@@ -10,7 +10,6 @@ body {
   padding: 0;
 }
 
-
 .main-section-title {
   margin-top: 20px;
   text-align: center;
@@ -18,7 +17,7 @@ body {
   font-family: 'Arvo', serif;
   font-weight: 700;
   font-size: 20px;
-  color: rgb(207, 113, 26)
+  color: rgb(207, 113, 26);
 }
 
 .main-app {
@@ -47,9 +46,8 @@ body {
   margin-left: 80px;
 }
 
-
 button {
-  background:rgb(255, 160, 19);
+  background: rgb(255, 160, 19);
   text-align: center;
   width: 80px;
   height: 30px;
@@ -77,11 +75,12 @@ button:hover {
   box-shadow: 5px 5px 5px rgba(107, 107, 107, 0.595);
 }
 
-.score {
+.score-container {
   padding: 6px;
   font-size: 14px;
 }
-.score:nth-child(even) {
+
+.score-container:nth-child(even) {
   background-color: rgba(246, 155, 29, 0.462);
 }
 
@@ -99,7 +98,6 @@ button:hover {
   align-self: center;
 }
 
-
 form {
   margin-top: 30px;
   display: flex;
@@ -110,7 +108,7 @@ form {
 input {
   width: 260px;
   height: 30px;
-  border:none; 
+  border: none;
   margin-bottom: 10px;
   background-color: rgba(181, 181, 181, 0.608);
 }
@@ -141,11 +139,27 @@ input::placeholder {
   display: none;
 }
 
-@media only screen and (min-width: 768px) {
+.msg {
+  display: none;
+  margin-top: 30px;
+  font-family: 'Arvo', serif;
+  width: 280px;
+  height: 30px;
+  font-size: 13px;
+  background-color: rgba(41, 215, 157, 0.79);
+  text-align: center;
+  padding-top: 10px;
+}
 
+.error {
+  background-color: rgb(232, 78, 78);
+}
+
+@media only screen and (min-width: 768px) {
   .add-btn {
     display: none;
   }
+
   .main-section-title {
     font-size: 25px;
   }
@@ -153,9 +167,11 @@ input::placeholder {
   .form-container {
     display: block;
   }
+
   button {
     width: 100px;
   }
+
   @media only screen and (min-width: 1440px) {
     .main-section-title {
       font-size: 35px;
@@ -167,6 +183,7 @@ input::placeholder {
       margin-left: 0;
       font-size: 40px;
     }
+
     .main-app {
       margin-top: 80px;
       gap: 100px;
@@ -177,13 +194,12 @@ input::placeholder {
     }
 
     .leaderboard {
-      background-color: rgba(255, 255, 255, 0.02);
-      color: rgba(255, 255, 255, 0.837);
-      min-width: 500px;
+      background-color: rgba(255, 255, 255, 0.481);
+      color: rgba(19, 9, 9, 0.837);
+      min-width: 650px;
       margin-left: 50px;
-      
     }
-    
+
     .form-title {
       font-size: 40px;
     }
@@ -196,5 +212,5 @@ input::placeholder {
       padding: 10px;
       font-size: 20px;
     }
-}
+  }
 }
