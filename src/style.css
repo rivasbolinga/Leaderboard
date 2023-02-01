@@ -42,12 +42,12 @@ button {
   flex-direction: column;
 }
 
-.score {
+.score-container {
   padding: 6px;
   font-size: 14px;
 }
 
-.score:nth-child(odd) {
+.score-container:nth-child(odd) {
   background-color: rgba(168, 168, 168, 0.852);
 }
 
