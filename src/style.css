@@ -44,7 +44,6 @@ body {
 .recent-scores-title {
   font-size: 30px;
   text-align: center;
-
 }
 
 button {
@@ -196,10 +195,12 @@ input::placeholder {
   button {
     width: 100px;
   }
+
   .submit-btn {
     align-self: flex-end;
     justify-self: flex-end;
   }
+
   @media only screen and (min-width: 1440px) {
     .main-section-title {
       font-size: 35px;
