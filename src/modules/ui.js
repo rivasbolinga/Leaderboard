@@ -6,6 +6,21 @@ const submitBtn = document.querySelector('.submit-btn');
 const nameInput = document.querySelector('.name-input');
 const scoreInput = document.querySelector('.score-input');
 const msg = document.querySelector('.msg');
+const addBtn = document.querySelector('.add-btn');
+const form = document.querySelector('.form-container');
+const closeBtn = document.querySelector('.close-form')
+// -- When press Add btn in mobile version, display form
+addBtn.addEventListener('click', (e)=> {
+  e.preventDefault();
+  form.classList.add('active');
+  closeBtn.style.display = 'block';
+})
+// -- When press Add btn in mobile version, display form
+closeBtn.addEventListener('click', (e)=> {
+  e.preventDefault();
+  form.classList.remove('active');
+  closeBtn.style.display = 'none';
+})
 // -- When press Refresh btn, make a request to ger the data from API.
 refreshBtn.addEventListener('click', (e) => {
   e.preventDefault();
