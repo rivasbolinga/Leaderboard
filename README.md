@@ -3,18 +3,26 @@
 <div align="center">
 
 ![images](https://user-images.githubusercontent.com/103900838/215281899-20ec7894-4831-422a-aea7-8ba335a01f16.png)
- # 📖 [LEADERBOARD] 
- <a name="about-project"></a>
+ 
+ # 📖 
 
 </div>
-<!-- PROJECT DESCRIPTION -->
+
 <div align="center">
 <img align="left" width="640" alt="Screenshot 2023-02-01 at 15 24 43" src="https://user-images.githubusercontent.com/103900838/216071213-548a40c1-1745-412b-ad32-608e37e5acc1.png">
 
 <img align="right" width="321" alt="Screenshot 2023-02-01 at 15 25 07" src="https://user-images.githubusercontent.com/103900838/216071239-df0aa6ee-4e82-47c2-b087-140269f50a02.png">
 </div>
 
-<div align="left">
+
+
+ # 📖 [LEADERBOARD] 
+ 
+ 
+ <a name="about-project"></a>
+<!-- PROJECT DESCRIPTION -->
+**[Leaderboard]** The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service. Project part of the Microverse curriculum.
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -39,9 +47,6 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 </div>
-
-
-**[Leaderboard]** The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service. Project part of the Microverse curriculum.
 
 ## 🛠 Built With <a name="built-with"></a>
 
