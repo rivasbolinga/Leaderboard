@@ -4,17 +4,13 @@
 
 ![images](https://user-images.githubusercontent.com/103900838/215281899-20ec7894-4831-422a-aea7-8ba335a01f16.png)
  
- # 📖 
 
 </div>
 
 <div align="center">
-<img align="left" width="640" alt="Screenshot 2023-02-01 at 15 24 43" src="https://user-images.githubusercontent.com/103900838/216071213-548a40c1-1745-412b-ad32-608e37e5acc1.png">
+<img  width="640" alt="Screenshot 2023-02-01 at 15 24 43" src="https://user-images.githubusercontent.com/103900838/216071213-548a40c1-1745-412b-ad32-608e37e5acc1.png">
 
-<img align="right" width="321" alt="Screenshot 2023-02-01 at 15 25 07" src="https://user-images.githubusercontent.com/103900838/216071239-df0aa6ee-4e82-47c2-b087-140269f50a02.png">
 </div>
-
-
 
  # 📖 [LEADERBOARD] 
  
