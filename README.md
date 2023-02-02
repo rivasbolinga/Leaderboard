@@ -9,9 +9,9 @@
 </div>
 <!-- PROJECT DESCRIPTION -->
 <div align="center">
-<img align="left" width="440" alt="Screenshot 2023-02-01 at 15 24 43" src="https://user-images.githubusercontent.com/103900838/216071213-548a40c1-1745-412b-ad32-608e37e5acc1.png">
+<img align="left" width="540" alt="Screenshot 2023-02-01 at 15 24 43" src="https://user-images.githubusercontent.com/103900838/216071213-548a40c1-1745-412b-ad32-608e37e5acc1.png">
 
-<img align="right" width="221" alt="Screenshot 2023-02-01 at 15 25 07" src="https://user-images.githubusercontent.com/103900838/216071239-df0aa6ee-4e82-47c2-b087-140269f50a02.png">
+<img align="right" width="321" alt="Screenshot 2023-02-01 at 15 25 07" src="https://user-images.githubusercontent.com/103900838/216071239-df0aa6ee-4e82-47c2-b087-140269f50a02.png">
 </div>
 
 <div align="left">
