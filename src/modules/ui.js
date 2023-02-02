@@ -30,12 +30,12 @@ formC.addEventListener('submit', async (e) => {
   const newScore = Number(scoreInput.value);
   if (newName !== '' && !Number.isNaN(newScore)) {
     await submitScores(newName, newScore);
-    formC.reset();
     msg.style.display = 'block';
     setTimeout(() => {
       msg.style.display = 'none';
     }, 2000);
-    submitBtn.disabled = true;
+    submitBtn.disabled = false;
+    formC.reset();
   } else {
     msg.style.display = 'block';
     msg.textContent = 'Please fill all fields';
