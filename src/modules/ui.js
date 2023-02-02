@@ -12,26 +12,16 @@ const closeBtn = document.querySelector('.close-form');
 const addBtn = document.querySelector('.add-btn')
 // -- When press Add btn in mobile version, display form
 addBtn.addEventListener('click', (e) => {
-  e.preventDefault();
   form.classList.add('active');
   closeBtn.style.display = 'block';
 });
 // -- When press Add btn in mobile version, display form
 closeBtn.addEventListener('click', (e) => {
-  e.preventDefault();
   form.classList.remove('active');
   closeBtn.style.display = 'none';
 });
 // -- When press Refresh btn, make a request to ger the data from API.
-refreshBtn.addEventListener('click', (e) => {
-  e.preventDefault();
-  displayScores();
-});
-
-const clearfields = () => {
-  nameInput.value = '';
-  scoreInput.value = '';
-};
+refreshBtn.addEventListener('click', displayScores);
 
 formC.addEventListener('submit', async (e) => {
   e.preventDefault();

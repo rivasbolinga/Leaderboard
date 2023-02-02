@@ -1,8 +1,10 @@
 import { getData } from './api.js';
 
 const leaderboard = document.querySelector('.leaderboard');
+const refreshBtn = document.querySelector('.refresh-btn');
 // -- Method to display the scores.
 const displayScores = async () => {
+  refreshBtn.disabled = true;
   leaderboard.innerHTML = '';
   const scores = await getData();
   const scoresObj = scores.result;
@@ -13,6 +15,7 @@ const displayScores = async () => {
     scoreContainer.innerHTML = `${scoresObj[i].user}: ${scoresObj[i].score}`;
     leaderboard.appendChild(scoreContainer);
   }
+  refreshBtn.disabled = false;
 };
 
 export default displayScores;
