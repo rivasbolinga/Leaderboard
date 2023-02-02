@@ -1,45 +1,78 @@
 body {
-  background-color: rgb(255, 255, 255);
-  font-family: 'Salsa', cursive;
+  background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+  font-family: 'Caveat', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .main-section-title {
-  padding: 30px 20px 0 20px;
-  font-family: 'Salsa', cursive;
-  font-size: 25px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 1px;
+  font-family: 'Arvo', serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(207, 113, 26);
 }
 
 .main-app {
   display: flex;
   flex-direction: row;
-  gap: 60px;
+  justify-content: center;
+  gap: 100px;
   padding: 30px;
 }
 
 .leaderboard-title-container {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 10px;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
+  font-size: 26px;
+  font-family: 'Arvo', serif;
+  color: rgb(223, 165, 17);
+}
+
+.recent-scores-title {
+  font-size: 30px;
+  text-align: center;
 }
 
 button {
-  background-color: white;
+  background: rgb(255, 160, 19);
   text-align: center;
   width: 80px;
   height: 30px;
-  border: 2px solid black;
-  box-shadow: 5px 5px 5px black;
-  font-family: 'Salsa', cursive;
+  border: none;
+  font-family: 'Arvo', serif;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+button:hover {
+  background: none;
+  border: 1px solid orange;
 }
 
 .leaderboard {
-  border: 2px solid black;
-  min-width: 300px;
+  background-color: rgba(255, 255, 255, 0.523);
+  margin-top: 30px;
+  color: rgba(61, 60, 60, 0.743);
+  font-family: 'Arvo', serif;
+  min-width: 200px;
   display: flex;
   flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(107, 107, 107, 0.595);
 }
 
 .score-container {
@@ -47,41 +80,166 @@ button {
   font-size: 14px;
 }
 
-.score-container:nth-child(odd) {
-  background-color: rgba(168, 168, 168, 0.852);
+.score-container:nth-child(even) {
+  background-color: rgba(246, 155, 29, 0.462);
 }
 
 .form-container {
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 10px;
   font-size: 18px;
 }
 
+.active {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  padding: 80px 0 0 20px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(6, 32, 55);
+  text-align: center;
+  font-size: 20px;
+  user-select: none;
+  transition: 200ms ease-in-out;
+}
+
+.add-btn {
+  width: 80px;
+  height: 60px;
+  border-radius: 30px;
+  background: linear-gradient(135deg, rgb(255, 168, 168) 10%, rgb(252, 255, 0) 100%);
+  color: white;
+  font-size: 40px;
+}
+
+.close-form {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 40px;
+  color: orange;
+  background: none;
+  border: none;
+}
+
 form {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
 input {
-  width: 230px;
-  height: 20px;
-  border: 2px solid black;
-  gap: 30px;
+  width: 260px;
+  height: 30px;
+  border: none;
+  margin-bottom: 10px;
+  background-color: rgba(181, 181, 181, 0.608);
 }
 
 input::placeholder {
-  color: black;
+  color: rgb(37, 36, 36);
   padding-left: 2px;
-  font-family: 'Salsa', cursive;
-}
-
-.submit-btn {
-  align-self: flex-end;
-  justify-self: flex-end;
+  font-family: 'Arvo', serif;
 }
 
 .form-title {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  font-family: 'Arvo', serif;
+  color: rgb(223, 165, 17);
+}
+
+.msg {
+  display: none;
+  margin-top: 30px;
+  font-family: 'Arvo', serif;
+  width: 280px;
+  height: 30px;
+  font-size: 13px;
+  background-color: rgba(41, 215, 157, 0.79);
   text-align: center;
+  padding-top: 10px;
+}
+
+.error {
+  background-color: rgb(232, 78, 78);
+}
+
+@media only screen and (min-width: 768px) {
+  .add-btn {
+    display: none;
+  }
+
+  .close-form {
+    display: none;
+  }
+
+  .main-section-title {
+    font-size: 25px;
+  }
+
+  .form-container {
+    display: block;
+  }
+
+  button {
+    width: 100px;
+  }
+
+  .submit-btn {
+    align-self: flex-end;
+    justify-self: flex-end;
+  }
+
+  @media only screen and (min-width: 1440px) {
+    .main-section-title {
+      font-size: 35px;
+      margin: 40px;
+    }
+
+    .recent-scores-title {
+      max-width: 300px;
+      margin-left: 0;
+      font-size: 40px;
+    }
+
+    .main-app {
+      margin-top: 80px;
+      gap: 100px;
+    }
+
+    .refresh-btn {
+      margin-left: 20px;
+    }
+
+    .leaderboard {
+      background-color: rgba(255, 255, 255, 0.481);
+      color: rgba(19, 9, 9, 0.837);
+      min-width: 650px;
+      margin-left: 50px;
+    }
+
+    .form-title {
+      font-size: 40px;
+    }
+
+    input {
+      width: 300px;
+    }
+
+    .score {
+      padding: 10px;
+      font-size: 20px;
+    }
+  }
 }

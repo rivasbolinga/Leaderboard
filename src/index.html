@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leaderboard</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Caveat:wght@400;700&family=Salsa&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
 </head>
@@ -16,15 +19,16 @@
       <div class="main-app">
         <div class="leaderboard-container">
           <div class="leaderboard-title-container">
+            <button class="add-btn">+</button>
             <h3 class="recent-scores-title">Recent scores</h3>
           <button class="refresh-btn">Refresh</button>
-          
-          </div>
+       </div>
+      
           <div class="leaderboard">
-
           </div>
         </div>
         <div class="form-container">
+          <button class="close-form">x</button>
           <h3 class="form-title">Add your score</h3>
           <form class="form">
             <input 
@@ -39,6 +43,7 @@
             placeholder="Your score">
             <button class="submit-btn">Submit</button>
           </form>
+          <div class="msg">Your score has been sent successfully</div>
         </div>
       </div>
     </main>
