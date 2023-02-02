@@ -11,12 +11,12 @@ const form = document.querySelector('.form-container');
 const closeBtn = document.querySelector('.close-form');
 const addBtn = document.querySelector('.add-btn')
 // -- When press Add btn in mobile version, display form
-addBtn.addEventListener('click', (e) => {
+addBtn.addEventListener('click', () => {
   form.classList.add('active');
   closeBtn.style.display = 'block';
 });
 // -- When press Add btn in mobile version, display form
-closeBtn.addEventListener('click', (e) => {
+closeBtn.addEventListener('click', () => {
   form.classList.remove('active');
   closeBtn.style.display = 'none';
 });
