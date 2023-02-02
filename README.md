@@ -68,7 +68,7 @@
 
 For a live demo to our project, follow the link below
 
-- [Live Demo Link](https://rivasbolinga.github.io/Leaderboard/dist/)
+- [Live Demo Link](https://rivasbolinga.github.io/Leaderboard/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
