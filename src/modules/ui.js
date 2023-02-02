@@ -9,7 +9,7 @@ const msg = document.querySelector('.msg');
 const formC = document.querySelector('.form');
 const form = document.querySelector('.form-container');
 const closeBtn = document.querySelector('.close-form');
-const addBtn = document.querySelector('.add-btn')
+const addBtn = document.querySelector('.add-btn');
 // -- When press Add btn in mobile version, display form
 addBtn.addEventListener('click', () => {
   form.classList.add('active');
