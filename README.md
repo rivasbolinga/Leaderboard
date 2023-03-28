@@ -53,10 +53,10 @@
 ### Key Features <a name="key-features"></a>
 
 <!-- > Describe between 1-3 key features of the application.-->
-- [ ] **[Create a new game using an API]**
-- [ ] **[Implement the "Refresh" button that will get all scores for a game created by you from the API]**
-- [ ] **[Implement the form "Submit" button that will save a score for a game created by you]**
-- [ ] **[Use async and await JavaScript features to consume the API]**
+- [ ] **Create a new game using an API**
+- [ ] **Implement the "Refresh" button that will get all scores for a game created by you from the API]**
+- [ ] **Implement the form "Submit" button that will save a score for a game created by you**
+- [ ] **Use async and await JavaScript features to consume the API**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
