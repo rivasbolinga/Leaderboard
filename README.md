@@ -12,7 +12,7 @@
 
 </div>
 
- # 📖 [LEADERBOARD] 
+ # 📖 LEADERBOARD
  
  
  <a name="about-project"></a>
