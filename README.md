@@ -54,7 +54,7 @@
 
 <!-- > Describe between 1-3 key features of the application.-->
 - [ ] **Create a new game using an API**
-- [ ] **Implement the "Refresh" button that will get all scores for a game created by you from the API]**
+- [ ] **Implement the "Refresh" button that will get all scores for a game created by you from the API**
 - [ ] **Implement the form "Submit" button that will save a score for a game created by you**
 - [ ] **Use async and await JavaScript features to consume the API**
 
@@ -73,7 +73,6 @@ For a live demo to our project, follow the link below
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
 
 
 To get a local copy up and running, follow these steps.
