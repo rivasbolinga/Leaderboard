@@ -96,15 +96,8 @@ In order to run this project you need:
 git clone https://github.com/rivasbolinga/Leaderboard.git
 ```
 
-```
-cd ToDoList-App
-```
-
 - [ ] Open the file in your code editor
 
-```
-code .
-```
 
 - [ ] Setup JavaScript + CSS + HTML linter
 
@@ -195,7 +188,7 @@ npm run deploy
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Better styling]**
+- [ ] **Improve styling**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
