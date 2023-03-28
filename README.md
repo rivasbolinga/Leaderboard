@@ -17,7 +17,7 @@
  
  <a name="about-project"></a>
 <!-- PROJECT DESCRIPTION -->
-**[Leaderboard]** The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service. Project part of the Microverse curriculum.
+**Leaderboard** displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service. Project part of the Microverse curriculum.
 
 <!-- TABLE OF CONTENTS -->
 
@@ -34,10 +34,8 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ (OPTIONAL)](#faq)
