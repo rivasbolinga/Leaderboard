@@ -39,13 +39,18 @@ formC.addEventListener('submit', async (e) => {
   const newScore = Number(scoreInput.value);
   
   if (newName !== '' && !Number.isNaN(newScore)) {
-    await submitScores(newName, newScore);
+    try {
+       await submitScores(newName, newScore);
     msg.style.display = 'block';
     setTimeout(() => {
       msg.style.display = 'none';
     }, 2000);
     submitBtn.disabled = false;
     formC.reset();
+    } catch(error) {
+      console.error('Failed to submit scores:', error)
+    }
+   
   } else {
     msg.style.display = 'block';
     msg.textContent = 'Please fill all fields';
