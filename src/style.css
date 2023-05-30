@@ -3,6 +3,8 @@ body {
   font-family: 'Caveat', cursive;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  height: 100vh;
 }
 
 * {
@@ -25,7 +27,7 @@ body {
   flex-direction: row;
   justify-content: center;
   gap: 100px;
-  padding: 30px;
+  padding: 10px;
 }
 
 .leaderboard-title-container {
@@ -58,6 +60,11 @@ button {
   cursor: pointer;
 }
 
+.refresh-btn {
+  font-size: 14px;
+  padding: 5px;
+}
+
 button:hover {
   background: none;
   border: 1px solid orange;
@@ -73,11 +80,13 @@ button:hover {
   flex-direction: column;
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgba(107, 107, 107, 0.595);
+  height: 500px;
+  overflow-y: scroll;
 }
 
 .score-container {
-  padding: 6px;
-  font-size: 14px;
+  padding: 14px;
+  font-size: 16px;
 }
 
 .score-container:nth-child(even) {
@@ -192,6 +201,10 @@ input::placeholder {
     display: block;
   }
 
+  .main-app {
+      margin-top: 80px;
+    }
+
   button {
     width: 100px;
   }
@@ -216,10 +229,13 @@ input::placeholder {
     .main-app {
       margin-top: 80px;
       gap: 100px;
+     padding-right: 80px;
+     justify-content: flex-end;
     }
 
     .refresh-btn {
       margin-left: 20px;
+      
     }
 
     .leaderboard {
