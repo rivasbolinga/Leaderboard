@@ -59,6 +59,7 @@ button {
   color: rgb(255, 255, 255);
   cursor: pointer;
 }
+
 footer {
   margin-top: 100px;
   color: white;
@@ -166,7 +167,6 @@ input {
 
 input::placeholder {
   color: rgb(37, 36, 36);
-  padding-left: 2px;
   font-family: 'Arvo', serif;
   font-size: 16px;
   padding-left: 10px;
@@ -217,8 +217,8 @@ input::placeholder {
   }
 
   .main-app {
-      margin-top: 80px;
-    }
+    margin-top: 80px;
+  }
 
   button {
     width: 100px;
@@ -229,7 +229,7 @@ input::placeholder {
     justify-self: flex-end;
   }
 
-  @media only screen and (min-width: 1040px) {
+  @media only screen and (min-width: 1240px) {
     .main-section-title {
       font-size: 35px;
       margin: 40px;
@@ -244,13 +244,12 @@ input::placeholder {
     .main-app {
       margin-top: 80px;
       gap: 120px;
-     padding-right: 80px;
-     justify-content: flex-end;
+      padding-right: 80px;
+      justify-content: flex-end;
     }
 
     .refresh-btn {
       margin-left: 20px;
-      
     }
 
     .leaderboard {
